@@ -18,7 +18,7 @@ $ node --harmony net-watcher.js target.txt
 ```console
 $ telnet localhost 5432
 ```
-![screenshot](https://i.gyazo.com/f999aef3530306b9e35618f28f7c2e7e.png)
+![screenshot](https://i.imgur.com/J4ikLoV.png)
 ![screenshot](https://i.gyazo.com/80f3b1c943e523970a4ea9e68686bd48.png)
 
 * Otro para hacer cambios.
