@@ -16,8 +16,11 @@ $ node --harmony net-watcher.js target.txt
 ![screenshot](https://i.gyazo.com/6c6aeab7c2a6f929dc2442fff3bec7b3.png)
 * Otro para el cliente.
 ```console
-$ node --harmony net-watcher.js target.txt
+$ telnet localhost 5432
 ```
+![screenshot](https://i.gyazo.com/f999aef3530306b9e35618f28f7c2e7e.png)
+![screenshot](https://i.gyazo.com/80f3b1c943e523970a4ea9e68686bd48.png)
+
 * Otro para hacer cambios.
 
 
