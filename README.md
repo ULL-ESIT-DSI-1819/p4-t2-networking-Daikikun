@@ -13,7 +13,7 @@ Probaremos que el rpograma funciona, usando tres sesiones de terminal.
 ```console
 $ node --harmony net-watcher.js target.txt
 ```
-![screenshot](https://i.gyazo.com/6c6aeab7c2a6f929dc2442fff3bec7b3.png)
+![screenshot](https://i.gyazo.com/0f2953f57b2e7133f115420245c98be2.png)
 * Otro para el cliente.
 ```console
 $ telnet localhost 5432
