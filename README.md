@@ -22,6 +22,9 @@ $ telnet localhost 5432
 ![screenshot](https://i.gyazo.com/80f3b1c943e523970a4ea9e68686bd48.png)
 
 * Otro para hacer cambios.
+```console
+$ touch target.txt
+```
 ![screenshot](https://i.gyazo.com/d1d7a97eed00e612f43110c49aa35e79.png)
 ![screenshot](https://i.gyazo.com/fc72a87a525b45396773ba73c59baa38.png)
 
