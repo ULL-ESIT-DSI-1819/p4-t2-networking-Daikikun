@@ -2,6 +2,8 @@
 
 ## Escucha de conexxiones con Sockets
 ### Enlace de un servidor a un puerto TCP
+### Escribir datos en un socket
+### Conexión a un servidor TCP Socket con Telnet
 
 ## Implementar un protocolo de mensajes
 ## Creación de la conexión cleinte del socket
