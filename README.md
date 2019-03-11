@@ -41,3 +41,7 @@ Como la telnet de windows es especial el formato de la fecha sale como una ristr
 ### LDJ
 ![screenshot](https://i.gyazo.com/50304b72f0b02766328b793919032363.png)
 
+### Creando los atajos para las instrucciones
+Para no tener que estar escribiendo las mismas isntrucciones una y otra vez no s creamos nuestra lista gulpfile para deerminar un alias que suponga la llamada de esas instrucciones que más frecuentemente usamos para nuestro proyecto sin tener que escribir la lista completa.
+![screenshot](https://i.gyazo.com/709e9ebf8fe70e990805c29467faec57.png)
+
