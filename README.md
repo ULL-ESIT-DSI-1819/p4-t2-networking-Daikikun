@@ -41,6 +41,11 @@ Hay que fijarse en la función listen() en la línea 26. Se puede observar que h
 ![screenshot](https://i.gyazo.com/7f22ffa0aabd6bcaedf6e01644cd2e1e.png)
 
 ### LDJ
+El protocolo utilizará nuevas líneas para separar los mensajes. Llamaremos a este protocolo Line-
+JSON delimitado (LDJ).
+
+Ahora que hemos definido un protocolo mejorado y accesible por computadora, vamos a modificar el servicio de net-watcher para utilizarlo. Luego crearemos programas de cliente que reciban e interpreten estos mensajes.
+
 ![screenshot](https://i.gyazo.com/50304b72f0b02766328b793919032363.png)
 
 ### Creando los atajos para las instrucciones
