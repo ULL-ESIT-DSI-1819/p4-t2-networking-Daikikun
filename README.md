@@ -36,6 +36,8 @@ Como la telnet de windows es especial el formato de la fecha sale como una ristr
 ![screenshot](https://i.gyazo.com/f18a1faf2c2032aab82a9fa2a31e8f81.png)
 
 ### Escuchando en sockets unix
+Hay que fijarse en la función listen() en la línea 26. Se puede observar que hace una llamada al fichero watcher.sock alojado en la carpeta /tmp . De esto sabemos que dicho servidor sólo será compatible con servicios unix, puesto que windows no dispone de esa ruta, y al no ser compatible existen los otros métodos.
+
 ![screenshot](https://i.gyazo.com/7f22ffa0aabd6bcaedf6e01644cd2e1e.png)
 
 ### LDJ
@@ -43,5 +45,6 @@ Como la telnet de windows es especial el formato de la fecha sale como una ristr
 
 ### Creando los atajos para las instrucciones
 Para no tener que estar escribiendo las mismas isntrucciones una y otra vez no s creamos nuestra lista gulpfile para deerminar un alias que suponga la llamada de esas instrucciones que más frecuentemente usamos para nuestro proyecto sin tener que escribir la lista completa.
+
 ![screenshot](https://i.gyazo.com/709e9ebf8fe70e990805c29467faec57.png)
 
