@@ -7,8 +7,10 @@ Vemos el esquema principal antes de hacer nuestro primer net-watcher
 ### Escribir datos en un socket
 Empezamos a desarrollar el contenido de la función flecha '(link) => {}' como objeto sentinela.
 
+![screenshot](https://i.gyazo.com/e70e4beb002129dc33a49ad3a0332acb.png)
+
 ### Conexión a un servidor TCP Socket con Telnet
-Probaremos que el rpograma funciona, usando tres sesiones de terminal.
+Probaremos que el programa funciona, usando tres sesiones de terminal.
 * Uno para el servicio.
 ```console
 $ node --harmony net-watcher.js target.txt
@@ -30,11 +32,12 @@ $ touch target.txt
 
 Como la telnet de windows es especial el formato de la fecha sale como una ristra de números.
 
+### Usando un objeto json
+![screenshot](https://i.gyazo.com/f18a1faf2c2032aab82a9fa2a31e8f81.png)
+
 ### Escuchando en sockets unix
+![screenshot](https://i.gyazo.com/7f22ffa0aabd6bcaedf6e01644cd2e1e.png)
 
+### LDJ
+![screenshot](https://i.gyazo.com/50304b72f0b02766328b793919032363.png)
 
-## Implementar un protocolo de mensajes
-## Creación de la conexión cleinte del socket
-## Probando la funcionalidad de la aplicación de red
-## Ampliación de core class en módulos personalizados
-## Acabado final
