@@ -5,10 +5,25 @@
 Vemos el esquema principal antes de hacer nuestro primer net-watcher
 
 ### Escribir datos en un socket
+```console
 Empezamos a desarrollar el contenido de la función flecha '(link) => {}' como objeto sentinela.
-
+  //usar el objeto de conexión para la transferencia de datos
+  // report
+  console.log("suscriptor conectado");
+  link.write("Ahora esta viendo " + filename + " esperando por cambios...\n");
+  // configuración del observador
+  let watcher = fs.watch(filename, () => {
+    link.write("Fichero " + filename + " cambiado: " + Date.now() + "\n");
+  });
+  //limpiar
+  link.on('close', () => {
+    console.log('Suscriptor desconectado.');
+    watcher.close();
+  });
+});
+if(!filename) throw Error('No se especificó ningún nombre de archivo de destino');
 ![screenshot](https://i.gyazo.com/e70e4beb002129dc33a49ad3a0332acb.png)
-
+```
 ### Conexión a un servidor TCP Socket con Telnet
 Probaremos que el programa funciona, usando tres sesiones de terminal.
 * Uno para el servicio.
