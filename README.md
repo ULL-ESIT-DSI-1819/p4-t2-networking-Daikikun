@@ -5,7 +5,7 @@
 Vemos el esquema principal antes de hacer nuestro primer net-watcher
 
 ### Escribir datos en un socket
-```console
+```javascript
 Empezamos a desarrollar el contenido de la función flecha '(link) => {}' como objeto sentinela.
   //usar el objeto de conexión para la transferencia de datos
   // report
